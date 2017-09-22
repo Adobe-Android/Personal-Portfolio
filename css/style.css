@@ -8,11 +8,27 @@
  * Made By MaterializeCSS.com
  */
 
+          /* Mobile Specific Styles */
+/**********************************************/
+.side-nav {
+  background-color: rgba(52, 52, 52, 0.8);
+}
+
+#nav-links {
+  color: white;
+}
+
+.side-nav:hover {
+  background-color: teal;
+}
+/**********************************************/
+
 
 /* .underline-custom {
   text-decoration: underline;
 } */
 
+/* Anchors Nav-bar position on Desktop to top */
 .nav-bar {
   position: fixed;
   top: 0.1px;
@@ -77,12 +93,16 @@ p {
   #index-banner .section {
     top: 10%;
   }
+  .underline-custom {
+    max-width: 45%;
+  }
 }
 
 @media only screen and (max-width: 600px) {
   #index-banner .section {
     top: 0;
   }
+
 }
 
 .icon-block {
