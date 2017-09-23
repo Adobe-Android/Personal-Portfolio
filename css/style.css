@@ -23,11 +23,6 @@
 }
 /**********************************************/
 
-
-/* .underline-custom {
-  text-decoration: underline;
-} */
-
 /* Anchors Nav-bar position on Desktop to top */
 .nav-bar {
   position: fixed;
@@ -94,6 +89,9 @@ p {
     top: 10%;
   }
   .underline-custom {
+    max-width: 45%;
+  }
+  .code-gif {
     max-width: 45%;
   }
 }
