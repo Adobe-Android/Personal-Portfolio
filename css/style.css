@@ -1,3 +1,19 @@
+/* blacklist  */
+
+.container {
+  border-radius: 0.3em;
+}
+
+/* Anchors Nav-bar position on Desktop to top */
+
+.nav-bar {
+  position: fixed;
+  top: 0.1px;
+  z-index: 999;
+}
+
+/* blacklist  */
+
 /* Custom Stylesheet */
 
 
@@ -8,27 +24,26 @@
  * Made By MaterializeCSS.com
  */
 
-          /* Mobile Specific Styles */
+
+/* Mobile Specific Styles */
+
+
 /**********************************************/
+
 .side-nav {
   background-color: rgba(52, 52, 52, 0.8);
+  width: 60%;
 }
 
 #nav-links {
   color: white;
 }
 
-.side-nav:hover {
+#nav-links:hover {
   background-color: teal;
 }
-/**********************************************/
 
-/* Anchors Nav-bar position on Desktop to top */
-.nav-bar {
-  position: fixed;
-  top: 0.1px;
-  z-index: 1;
-}
+/**********************************************/
 
 nav ul a:hover {
   background-color: teal;
@@ -46,11 +61,6 @@ blockquote {
   filter: grayscale(100%);
 }
 
-.container {
-  opacity: 0.9;
-  border-radius: 0.3em;
-}
-
 .contact-me {
   width: 25%;
 }
@@ -65,10 +75,6 @@ p {
   line-height: 2rem;
 }
 
-.button-collapse {
-  color: #26a69a;
-}
-
 .parallax-container {
   min-height: 380px;
   line-height: 0;
@@ -80,27 +86,77 @@ p {
   width: 100%;
 }
 
-@media only screen and (max-width: 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
-  .underline-custom {
-    max-width: 45%;
-  }
-  .code-gif {
-    max-width: 45%;
-  }
+.code-gif {
+  max-width: 100%;
 }
 
-@media only screen and (max-width: 600px) {
-  #index-banner .section {
-    top: 0;
-  }
+.tech-icon-block {
+  max-height: 82.5px;
+}
 
+
+/* Font-Awesome icons */
+
+.fa {
+  padding: 15px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa-twitter,
+.fa-linkedin,
+.fa-github,
+.fa-envelope {
+  background: black;
+  color: white;
+}
+
+.fa:hover {
+  background: white;
+  color: black;
+}
+
+.card-custom {
+  background: #4d4d4d;
+}
+
+.card-text {
+  font-size: 2em;
+  text-align: center;
+  padding-top: 0.8em;
+  color: white !important;
+}
+
+.card-image {
+  max-height: 50% !important;
+}
+
+.portrait-border {
+  border-top: 0.1em solid #4d4d4d;
+}
+
+.portrait-container {
+  padding-bottom: 2em;
+}
+
+.name-tag {
+  font-size: 3em;
+  color: white;
+}
+
+.portrait-img {
+  /* float: right; */
+  padding: 10px;
+  max-height: 18em;
+  max-width: 18em;
+  border-radius: 5em;
+}
+
+.underline-custom {
+  max-width: 60%;
 }
 
 .icon-block {
@@ -114,3 +170,200 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
+
+/* High-PPI Desktop display */
+
+@media only screen and (min-width: 1800px) {
+  /* Technologies section */
+  .tech-icon-block {
+    padding-left: 0.5em;
+    max-width: 7em;
+    padding-bottom: 1em;
+  }
+  .tech-icon-container {
+    background-color: dimgray;
+  }
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+  .parallax-container {
+    min-height: 45em !important;
+  }
+  /* Technologies section */
+  .name-text {
+    padding-top: 0.8em;
+    font-size: 8em !important;
+  }
+  .title-text {
+    margin-top: 0em;
+    font-size: 4em !important;
+  }
+  nav ul a {
+    font-size: 1.8em;
+  }
+}
+
+
+/* Desktop display */
+
+@media only screen and (min-width: 1200px) {
+  /* Technologies section */
+  .tech-icon-block {
+    padding-left: 0.5em;
+    max-width: 7em;
+    padding-bottom: 1em;
+  }
+  .tech-icon-container {
+    background-color: dimgray;
+  }
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+  /* Technologies section */
+}
+
+
+/* Tablet landscape view */
+
+@media only screen and (min-width: 900px) {
+  /* Technologies section */
+  .tech-icon-block {
+    padding-left: 0.5em;
+    max-width: 5em;
+    padding-bottom: 1em;
+  }
+  .tech-icon-container {
+    background-color: dimgray;
+  }
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+  /* Technologies section */
+}
+
+
+/* Low-res laptops and tablet portrait view */
+
+@media only screen and (min-width: 600px) {
+  /* Technologies section */
+  .tech-icon-block {
+    padding-left: 0.5em;
+    max-width: 5em;
+    padding-bottom: 1em;
+  }
+  .tech-icon-container {
+    background-color: dimgray;
+  }
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+  /* Technologies section */
+  .name-text {
+    font-size: 4em;
+  }
+  .title-text {
+    margin-top: 0em;
+    font-size: 2.5em;
+  }
+  /* .nav-bar {
+    position: fixed;
+    top: 0.1px;
+    z-index: 2;
+  } */
+}
+
+
+/* Phone Only */
+
+@media only screen and (max-width: 599px) {
+  .parallax-container {
+    min-height: 15em;
+  }
+  /* Technologies section */
+  .tech-icon-block {
+    padding-left: 0.5em;
+    max-width: 4em;
+    padding-bottom: 1em;
+  }
+  .tech-icon-container {
+    background-color: dimgray;
+  }
+  /* Technologies section */
+  .name-text {
+    font-size: 2.7em;
+  }
+  .title-text {
+    margin-top: 0em;
+    font-size: 1.2em;
+  }
+}
+
+@media only screen and (max-width: 355px) {
+  .parallax-container {
+    min-height: 13em;
+  }
+  .name-text {
+    font-size: 2.4em;
+  }
+  .title-text {
+    margin-top: 0em;
+    font-size: 1em;
+  }
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltip-text {
+  font-family: Courier New, Courier, monospace;
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltip .tooltip-text::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+

@@ -1,7 +1,9 @@
-(function($){
-  $(function(){
+(function ($) {
+  $(function () {
 
-    $('.button-collapse').sideNav();
+    $('.button-collapse').sideNav({
+      closeOnClick: true
+    });
     $('.parallax').parallax();
 
   }); // end of document ready
