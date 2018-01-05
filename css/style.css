@@ -1,4 +1,4 @@
-.underline-container {
+/* .underline-container {
   margin-left: 19em;
   margin-right: 19em;
   padding-bottom: 1em;
@@ -7,7 +7,7 @@
 .underline {
   border-bottom: 2px solid white;
   max-width: 100%;
-}
+} */
 
 .description {
   margin: 0;
@@ -190,13 +190,79 @@ footer.page-footer {
   margin: 0;
 }
 
+/* Phone Only */
+
+@media only screen and (max-width: 599px) {
+  .underline-container {
+    /* margin-left: 4.5em;
+    margin-right: 4.5em; */
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1em;
+  }
+
+  .underline {
+    border-bottom: 2px solid white;
+    max-width: 100%;
+  }
+  .parallax-container {
+    min-height: 15em;
+  }
+  /* Technologies section */
+  .tech-icon-block {
+    padding-left: 0.5em;
+    max-width: 4em;
+    padding-bottom: 1em;
+  }
+  .tech-icon-container {
+    background-color: dimgray;
+  }
+  /* Technologies section */
+  .name-text {
+    font-size: 2.7em;
+  }
+  .title-text {
+    margin-top: 0em;
+    font-size: 1.2em;
+  }
+}
+
+@media only screen and (max-width: 355px) {
+  .underline-container {
+    /* margin-left: 3em;
+    margin-right: 3em; */
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1em;
+  }
+
+  .underline {
+    border-bottom: 2px solid white;
+    max-width: 100%;
+  }
+  .parallax-container {
+    min-height: 13em;
+  }
+  .name-text {
+    font-size: 2.4em;
+  }
+  .title-text {
+    margin-top: 0em;
+    font-size: 1em;
+  }
+}
 
 /* Low-res laptops and tablet portrait view */
 
 @media only screen and (min-width: 600px) {
   .underline-container {
-    margin-left: 16em;
-    margin-right: 16em;
+    /* margin-left: 16em;
+    margin-right: 16em; */
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
     padding-bottom: 1em;
   }
 
@@ -235,71 +301,15 @@ footer.page-footer {
   } */
 }
 
-
-/* Phone Only */
-
-@media only screen and (max-width: 599px) {
-  .underline-container {
-    margin-left: 4.5em;
-    margin-right: 4.5em;
-    padding-bottom: 1em;
-  }
-
-  .underline {
-    border-bottom: 2px solid white;
-    max-width: 100%;
-  }
-  .parallax-container {
-    min-height: 15em;
-  }
-  /* Technologies section */
-  .tech-icon-block {
-    padding-left: 0.5em;
-    max-width: 4em;
-    padding-bottom: 1em;
-  }
-  .tech-icon-container {
-    background-color: dimgray;
-  }
-  /* Technologies section */
-  .name-text {
-    font-size: 2.7em;
-  }
-  .title-text {
-    margin-top: 0em;
-    font-size: 1.2em;
-  }
-}
-
-@media only screen and (max-width: 355px) {
-  .underline-container {
-    margin-left: 3em;
-    margin-right: 3em;
-    padding-bottom: 1em;
-  }
-
-  .underline {
-    border-bottom: 2px solid white;
-    max-width: 100%;
-  }
-  .parallax-container {
-    min-height: 13em;
-  }
-  .name-text {
-    font-size: 2.4em;
-  }
-  .title-text {
-    margin-top: 0em;
-    font-size: 1em;
-  }
-}
-
 /* Tablet landscape view */
 
 @media only screen and (min-width: 900px) {
   .underline-container {
-    margin-left: 16em;
-    margin-right: 16em;
+    /* margin-left: 16em;
+    margin-right: 16em; */
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
     padding-bottom: 1em;
   }
 
@@ -330,8 +340,11 @@ footer.page-footer {
 
 @media only screen and (min-width: 1200px) {
   .underline-container {
-    margin-left: 22em;
-    margin-right: 22em;
+    /* margin-left: 22em;
+    margin-right: 22em; */
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
     padding-bottom: 1em;
   }
 
@@ -362,8 +375,11 @@ footer.page-footer {
 
 @media only screen and (min-width: 1800px) {
   .underline-container {
-    margin-left: 28em;
-    margin-right: 28em;
+    /* margin-left: 28em;
+    margin-right: 28em; */
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
     padding-bottom: 1em;
   }
 
